@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Book Details</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Update Book Details:</h1>
+        <form method="post" action="/books/<%= book.id %>?_method=PATCH">
+            <label for="title">Book Title:</label>
+            <input type="text" name="title" id="title" value="<%= book.title %>" placeholder="Enter book title">
+            
+            <label for="author">Author:</label>
+            <input type="text" name="author" id="author" value="<%= book.author %>" placeholder="Enter author name">
+            
+            <label for="copies">No. of copies:</label>
+            <input type="text" name="copies" id="copies" value="<%= book.copies %>" placeholder="Enter number of copies">
+            
+            <button>Update Book Details</button>
+        </form>
+    </div>
+</body>
+</html>
