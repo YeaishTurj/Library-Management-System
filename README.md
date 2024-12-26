@@ -31,17 +31,12 @@ Ensure you have the following installed:
    cd library-management-system
    ```
 
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Run the Application**:
+2. **Run the Application**:
    ```bash
    node index.js
    ```
 
-4. Open your browser and navigate to:
+3. Open your browser and navigate to:
    ```
    http://localhost:8080/books
    ```
@@ -82,7 +77,7 @@ Ensure you have the following installed:
 - **Frontend**: EJS (Embedded JavaScript), HTML, CSS
 - **Other Libraries**:
   - `uuid` for generating unique IDs
-  - `method-override` for handling PUT and DELETE methods in forms
+  - `method-override` for handling PATCH and DELETE methods in forms
 
 ---
 
