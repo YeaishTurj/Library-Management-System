@@ -27,7 +27,7 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/YeaishTurj/Library-Management-System.git
    cd library-management-system
    ```
 
