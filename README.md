@@ -28,7 +28,7 @@ Ensure you have the following installed:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/YeaishTurj/Library-Management-System.git
-   cd library-management-system
+   cd Library-Management-System/
    ```
 
 2. **Run the Application**:
