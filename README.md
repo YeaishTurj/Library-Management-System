@@ -26,12 +26,14 @@ Ensure you have the following installed:
 ## Installation
 
 1. **Clone the Repository**:
+
    ```bash
    git clone https://github.com/YeaishTurj/Library-Management-System.git
    cd Library-Management-System/
    ```
 
 2. **Run the Application**:
+
    ```bash
    node index.js
    ```
@@ -60,14 +62,14 @@ Ensure you have the following installed:
 
 ## Routes
 
-| Method | Route                     | Description                    |
-|--------|---------------------------|--------------------------------|
-| GET    | `/books`                  | Display all books             |
-| GET    | `/books/newBook`          | Form to add a new book        |
-| POST   | `/books`                  | Add a new book                |
-| GET    | `/books/:id`              | Form to edit book details     |
-| PATCH  | `/books/:id`              | Update book details           |
-| DELETE | `/books/:id`              | Delete a book                 |
+| Method | Route            | Description               |
+| ------ | ---------------- | ------------------------- |
+| GET    | `/books`         | Display all books         |
+| GET    | `/books/newBook` | Form to add a new book    |
+| POST   | `/books`         | Add a new book            |
+| GET    | `/books/:id`     | Form to edit book details |
+| PATCH  | `/books/:id`     | Update book details       |
+| DELETE | `/books/:id`     | Delete a book             |
 
 ---
 
@@ -81,3 +83,48 @@ Ensure you have the following installed:
 
 ---
 
+## Demo
+
+See the Library Management System in action:
+
+[![Library Management System Demo](https://img.youtube.com/vi/BTPQYe33ous/0.jpg)](https://youtu.be/BTPQYe33ous)
+
+_(Click the image above to watch the demo on YouTube)_
+
+---
+
+## Demo Books for Testing
+
+1. **লালসালু (Lalsalu) – সৈয়দ ওয়ালীউল্লাহ (Syed Waliullah)**
+
+   - Author: Syed Waliullah
+   - Copies: 2
+
+2. **সর্বনাশা (Sarbonaasha) – সেলিনা হোসেন (Selina Hossain)**
+
+   - Author: Selina Hossain
+   - Copies: 3
+
+3. **The Great Gatsby**
+
+   - Author: F. Scott Fitzgerald
+   - Copies: 3
+
+4. **To Kill a Mockingbird**
+
+   - Author: Harper Lee
+   - Copies: 5
+
+5. **1984**
+
+   - Author: George Orwell
+   - Copies: 2
+
+6. **Pride and Prejudice**
+
+   - Author: Jane Austen
+   - Copies: 4
+
+7. **Moby Dick**
+   - Author: Herman Melville
+   - Copies: 1
