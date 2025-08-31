@@ -48,14 +48,20 @@ Ensure you have the following installed:
 ## Project Structure
 
 ```
-├── views/
-│   ├── allBooks.ejs       # View for displaying all books
-│   ├── addBook.ejs        # View for adding a new book
-│   ├── updateBook.ejs     # View for updating book details
+Library-Management-System/
+├── demo/
+│   └── library_management_demo_gif.gif    # GIF preview of the demo
+├── node_modules/                          # Project dependencies
 ├── public/
-│   └── styles.css         # CSS file for styling
-├── index.js               # Main server file
-├── package.json           # Project configuration and dependencies
+│   └── styles.css                         # CSS styling
+├── views/
+│   ├── addBook.ejs                        # Form to add a book
+│   ├── allBooks.ejs                       # View all books
+│   └── updateBook.ejs                     # Form to update a book
+├── index.js                               # Main server file
+├── package.json                           # Project config & dependencies
+├── package-lock.json                      # Lock file for npm
+└── README.md                              # Project documentation
 ```
 
 ---
@@ -85,7 +91,11 @@ Ensure you have the following installed:
 
 ## Demo
 
-See the Library Management System in action:
+Quick preview:
+
+![Demo Preview](demo/library_management_demo_gif.gif)
+
+Full demo video:
 
 [![Library Management System Demo](https://img.youtube.com/vi/BTPQYe33ous/0.jpg)](https://youtu.be/BTPQYe33ous)
 
